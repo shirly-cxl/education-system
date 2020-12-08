@@ -1,0 +1,33 @@
+h2>strong {
+	display: inline-block;
+	padding: 0px 10px;
+	font-size: 40px;
+	color: #0262b687;
+}
+#one td{
+	color: #7580c1;
+}
+.td td{
+	border: hidden;
+	background-color:#fff494;
+	border-radius: 20px;
+	text-align: center;	
+}
+input{
+	background-color:#7580c1;
+	color: white;
+	border: hidden;
+	border-radius: 8px;
+}
+.button{
+	background-color: #f44336;
+	color: white;
+	border: hidden;
+	border-radius: 8px;
+}
+
+#order tr td{
+	text-align: center;
+}
+
+

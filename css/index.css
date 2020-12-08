@@ -1,0 +1,33 @@
+//教学质量评价字数统计
+h2>strong {
+	display: inline-block;
+	padding: 0px 10px;
+	font-size: 40px;
+	color: #0262b687;
+}
+form {
+	font-size: 18px;
+	font-weight: bolder;
+}
+#edit{
+	text-align: center;
+}
+.button {
+	margin-top: 30px;
+	border: hidden;
+	background-color: #626eb1;
+	border-radius: 8px;
+	width: 120px;
+	color: white;
+}
+
+p{
+	font-size: 14px;
+}
+.textColor1,.textColor2{
+	color:red;
+}
+textarea{
+	width: 500px;
+	height: 250px;
+}

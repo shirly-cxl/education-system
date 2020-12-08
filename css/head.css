@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+			.top {
+				position: absolute;
+				left: 340px;
+				height: 100px;
+				background-color: #ffc107fc;
+			}
+			
+*/
+/*
+			.form-inline {
+				margin-left: 940px;
+				margin-top: 15px;
+			}
+			
+			.ip {
+				border-radius: 5px;
+				height: 35px;
+			}
+			
+			.button {
+				display: inline-block;
+				padding: 5px 15px;
+				font-size: 16px;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+				background-color: #FFCCCC;
+				border: none;
+				border-radius: 10px;
+				box-shadow: 0 4px #999;
+			}
+			
+			.button:hover {
+				background-color: #3FF99CC;
+				display: block;
+			}
+			
+			.button:active {
+				background-color: #FF99CC;
+				box-shadow: 0 4px #666;
+				transform: translateY(4px);
+			}
+			
+			.bg {
+				position: absolute;
+				top: 10px;
+			}
+			.btn-secondary {
+			    color: #fff;
+			    background-color:#ffc107fc;
+			    border-color: #f8f9fa00;
+			    width: 140px;
+				position: absolute;
+				left: 30px;
+			}
+			.btn-secondary:hover {
+			    color: var(--gray);
+			    background-color: #ffc10700;
+			    border-color: #ffc10700;
+			}
+			 .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+			    color: var(--gray);
+			    background-color: #FFFFFF;
+			    border-color: #ffc10700;
+			}
+			.dropdown-menu.show {
+			    display: block;
+			    border: transparent;
+			}
+			a{
+				background-color: #FFFFFF;
+				color:#666666;
+				text-decoration: none;
+			}
+			a:hover {
+    			color: #ffc72191;
+    			text-decoration: none;
+    		}
+			ul{
+				list-style: none;
+			}
+			#one{
+				width: 200px;
+				height: 490px;
+				background-color: #ffc107fc;
+				text-align: center;
+			}
+*/

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="css/login.css">
+<link type="text/css" rel="stylesheet" href="css/register.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	
+	
+	
+</style>
+
+<body>
+	<div class="login_big">
+		<!--标题-->
+		<h2 class="form-signin-heading" style="padding-left: 30px;">登录</h2><br>
+		<!--表单输入框-->
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label for="exampleInputUsername1" class="col-sm-2 control-label inline-style font-position-right">用户名</label>
+				<div class="col-sm-9 inline-style ">
+					<input type="text" class="form-control" id="exampleInputUsername1" placeholder="请输入用户名">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputUsername1" class="col-sm-2 control-label  inline-style font-position-right">密码</label>
+				<div class="col-sm-9  inline-style">
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+				</div>
+			</div>
+		</form>
+		
+		<!--验证框-->
+		<div class="verBox">
+			<div id="imgVer" style="display:inline-block;"></div>
+		</div><br>
+		
+		<!--登录按钮-->
+		<div class="form-group" style="padding-left: 15px;" >
+            <button type="button" class="btn btn-primary btn-lg" style="width: 300px;" id="login" disabled>登录</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="button" class="btn btn-secondary btn-lg" style="width: 150px;"><a href="webapp/register.html" style="text-decoration: none;color: white">注册</a></button>
+
+        </div>
+		
+	</div>
+	
+	
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/img_ver.js"></script>
+<script src="js/login.js"></script>
+</html>

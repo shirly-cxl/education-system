@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/register.css" type="text/css" />
+</head>
+
+</head>
+<body>
+<div class="container1 login_big" style="padding: 20px 10px;">
+
+	<form class="form-horizontal" >
+		<div class="form-group">
+		<h2 class="form-signin-heading" style="text-align: center">注册</h2><br>
+		<!-- class="sr-only"将label标签隐藏 -->
+		<label for="uid" class="col-sm-2 control-label inline-style font-position-right">用户名</label>
+		<div class="col-sm-9 inline-style " id="uid">
+			<input type="text" class="form-control" id="uid" placeholder="请设置用户名">
+		</div>
+		</div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label>
+        <div class="form-group">
+            <!--<h2 class="form-signin-heading">注册</h2>-->
+            <label for="psw" class="col-sm-2 control-label  inline-style font-position-right">密码</label>
+            <div class="col-sm-9  inline-style">
+                <input type="password" class="form-control" id="psw" placeholder="请设置密码">
+            </div>
+        </div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label>
+		<div class="form-group">
+            <label for="psw2" class="col-sm-2 control-label  inline-style font-position-right">确认密码</label>
+            <div class="col-sm-9  inline-style">
+                <input type="password" class="form-control" id="psw2" placeholder="请确认你的密码">
+            </div>
+        </div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label>
+		<div class="form-group">
+            <label for="sid" class="col-sm-2 control-label  inline-style font-position-right">学校学号</label>
+            <div class="col-sm-9  inline-style">
+                <input type="text" class="form-control" id="sid" placeholder="请输入学校学生号码">
+            </div>
+        </div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label>
+		<div class="form-group">
+            <label for="mail" class="col-sm-2 control-label   inline-style font-position-right">邮箱地址</label>
+            <div class="col-sm-9  inline-style">
+                <input type="tel" class="form-control " id="mail" placeholder="请输入你的邮箱地址" >
+            </div>
+        </div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label>
+		<div class="form-group">
+            <label for="phone" class="col-sm-2 control-label   inline-style font-position-right">手机号</label>
+            <div class="col-sm-9  inline-style">
+                <input type="tel" class="form-control" id="phone" placeholder="请输入你的手机号">
+            </div>
+        </div>
+		<!--错误提示框-->
+		<label style="display: none;margin-top: -24px;padding-top: 0;color: crimson"></label><br>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10" >
+                <button class="btn btn-lg btn-primary btn-block register-btn" type="button"><a href="../login.html" style="text-decoration: none;color: white">注册</a></button>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/register.js"></script>
+</body>
+</html>
